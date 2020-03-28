@@ -5,6 +5,8 @@
  */
 package aplicacao;
 
+import Tabuleiro.Posicao;
+
 /**
  *
  * @author Joao
@@ -16,7 +18,9 @@ public class JogoXadrez {
      */
     public static void main(String[] args) {
         
-        System.out.println("Hello, World!");
+        Posicao posicao = new Posicao(3,5);
+        
+        System.out.println(posicao);
         
     }
     
